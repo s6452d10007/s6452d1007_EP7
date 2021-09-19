@@ -1,0 +1,28 @@
+h1{
+    color: gold;
+}
+h2{
+    color: goldenrod;
+}
+
+/*pseudo element*/
+h2::first-letter{
+    color:red;
+}
+h4::before{
+    content: url(/images/sauicon.png);
+}
+/*pseudo class*/
+a:link{ /*เว็บเป็นสีชมพู*/
+    color: rgb(225, 65, 145)
+    ;
+}
+a:hover{ /*เอาเมาส์ไปวางจะเป็นสีแดง*/
+    color: red;
+}
+a:visited{ /*เคยเข้าเว็บไปแล้วจะเป็นสีน้ำตาล*/
+    color: saddlebrown;
+}
+a{
+    text-decoration: none;
+}
